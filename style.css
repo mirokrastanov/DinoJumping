@@ -63,6 +63,17 @@
     animation: block 2s infinite linear;
 }
 
+@keyframes block {
+    0% {
+        left: 500px
+    }
+
+    100% {
+        left: -20px
+    }
+}
+
+
 
 
 
