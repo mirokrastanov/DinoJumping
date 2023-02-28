@@ -25,5 +25,14 @@ let checkDead = setInterval(function () {
         .getPropertyValue("top"));
     let blockLeft = parseInt(window.getComputedStyle(block)
         .getPropertyValue("left"));
-    
+    if (blockLeft < 20 && blockLeft > -20 && characterTop >= 130) {
+        
+        
+       
+       
+        
+    } else {
+        counter++;
+        document.getElementById("scoreSpan").innerHTML = Math.floor(counter / 100);
+    }
 }, 10);
