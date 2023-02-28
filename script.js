@@ -31,8 +31,12 @@ let checkDead = setInterval(function () {
         // counter = 0;
         // block.style.animation = "block 2s infinite linear";
         block.style.animationPlayState = 'paused';
-        
-       
+        const gameBoard = document.querySelector('.game');
+        gameBoard.innerHTML = '';
+        document.querySelector('body p').remove();
+        let finalScore = document.createElement('div');
+        finalScore.classList.add('final-score');
+        finalScore.textContent = `Score: ${Math.floor(counter / 100)}`;
        
         
     } else {
