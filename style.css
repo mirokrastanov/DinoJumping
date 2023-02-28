@@ -51,5 +51,17 @@
     }
 }
 
+#block {
+    /* background-color: blue; */
+    background-image: url('./images/pixel-cactus-01.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+}
+
+
 
 
