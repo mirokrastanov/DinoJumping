@@ -5,6 +5,11 @@ let listener = document.querySelector('html');
 let gameENDED = false;
 let newGameBtnElement = null;
 listener.addEventListener('click', jump);
+document.querySelector('html').addEventListener('click', (e) => {
+    if (e.target.classList.contains('new-game-btn')) {
+        window.location.reload();
+    }
+});
 
 function jump() {
     if (gameENDED) {
