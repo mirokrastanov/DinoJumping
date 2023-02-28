@@ -11,5 +11,16 @@
     margin: auto;
 }
 
+#character {
+    width: 33px;
+    height: 50px;
+    /* background-color: red; */
+    background-image: url('./images/dyno_03.png');
+    background-size: cover;
+    position: relative;
+    top: 150px;
+}
+
+
 
 
