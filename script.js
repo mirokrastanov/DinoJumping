@@ -8,6 +8,14 @@ listener.addEventListener('click', jump);
 
 function jump() {
    
-   
+    if (character.classList == "animate") { return }
+    character.classList.add("animate");
+    setTimeout(function () {
+        character.classList.remove("animate");
+    }, 600);
 }
 
+let checkDead = setInterval(function () {
+    
+   
+}, 10);
