@@ -7,7 +7,9 @@ let newGameBtnElement = null;
 listener.addEventListener('click', jump);
 
 function jump() {
-   
+    if (gameENDED) {
+        return;
+    }
     if (character.classList == "animate") { return }
     character.classList.add("animate");
     setTimeout(function () {
@@ -16,6 +18,8 @@ function jump() {
 }
 
 let checkDead = setInterval(function () {
-    
+    if (gameENDED) {
+        return;
+    }
    
 }, 10);
