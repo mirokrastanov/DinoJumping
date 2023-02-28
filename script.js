@@ -37,8 +37,16 @@ let checkDead = setInterval(function () {
         let finalScore = document.createElement('div');
         finalScore.classList.add('final-score');
         finalScore.textContent = `Score: ${Math.floor(counter / 100)}`;
-       
-        
+        let wrapperScore = document.createElement('div');
+        wrapperScore.classList.add('final-wrap');
+        wrapperScore.appendChild(finalScore);
+        let newGameBtn = document.createElement('button');
+        newGameBtn.classList.add('new-game-btn');
+        newGameBtn.textContent = 'New Game';
+        wrapperScore.appendChild(newGameBtn);
+        gameBoard.appendChild(wrapperScore);
+        gameENDED = true;
+        newGameBtnElement = newGameBtn;
     } else {
         counter++;
         document.getElementById("scoreSpan").innerHTML = Math.floor(counter / 100);
