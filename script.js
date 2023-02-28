@@ -21,5 +21,9 @@ let checkDead = setInterval(function () {
     if (gameENDED) {
         return;
     }
-   
+    let characterTop = parseInt(window.getComputedStyle(character)
+        .getPropertyValue("top"));
+    let blockLeft = parseInt(window.getComputedStyle(block)
+        .getPropertyValue("left"));
+    
 }, 10);
