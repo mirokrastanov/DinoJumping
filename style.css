@@ -113,4 +113,9 @@ body {
     font-size: 24px;
     margin: 5px;
     padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: 'Prototype';
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
 
