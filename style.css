@@ -105,4 +105,12 @@ body {
     background: antiquewhite;
 }
 
+.final-score,
+.new-game-btn {
+    /* background: rgb(48, 240, 240); */
+    background: rgb(0, 31, 36);
+    background: linear-gradient(90deg, rgba(0, 31, 36, 1) 0%, rgba(29, 114, 201, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    font-size: 24px;
+    margin: 5px;
+    padding: 5px 10px;
 
