@@ -21,6 +21,9 @@
     top: 150px;
 }
 
+.animate {
+    animation: jump 0.6s linear;
+}
 
 
 
