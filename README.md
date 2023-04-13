@@ -9,7 +9,7 @@ A JavaScript implementation of the popular chrome-based <a href="https://en.wiki
 1. Use your `Left mouse button` to jump. 
 2. Get as far as you can and get the highest score. :)
 
-- You can click anywhere inside the current browser tab, not just inside the game board square.
+- You can click anywhere inside the current browser tab, not just inside the game board.
 
 ## Game Screenshots
 <p align="center"><img src="https://github.com/mirokrastanov/DinoJumping/blob/main/images/dino-g-01.png?raw=true" alt="board-image" title="Game board image" /></p>
